@@ -1,4 +1,6 @@
-console.log("hello")
+var container = document.querySelector(".container")
+container.append
+
 var questions = [
     {
     promt: "inside which element do we put the javascript?\n(1) js\n\ (2) scripting\n (3) Script",
@@ -38,5 +40,4 @@ for(var i=0; i < questions.length; i++){
         
 
     } 
-
 
