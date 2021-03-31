@@ -4,6 +4,7 @@ body {
 
 .container {
     box-sizing: border-box;
+    border: 25px 25px 0 ;
 }
 
 .start {

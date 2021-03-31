@@ -1,4 +1,5 @@
 var container = document.querySelector(".container")
+var container = document.createElement(".container")
 container.append
 
 var questions = [
@@ -37,7 +38,10 @@ for(var i=0; i < questions.length; i++){
         else {
         alert("You're Wrong!");
         }
-        
-
     } 
 
+function showQuestion(){
+    //create the element
+    //add inner text
+    //container APPENDCHIlD new element
+}
