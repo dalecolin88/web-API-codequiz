@@ -1,3 +1,5 @@
+var current_question_index
+
 var container = document.querySelector(".container")
 var container = document.createElement(".container")
 container.append
@@ -39,6 +41,9 @@ for(var i=0; i < questions.length; i++){
         alert("You're Wrong!");
         }
     } 
+
+var question_tag = document.getElementById("question-text");
+question_tag.innerHTML = //question text from question object
 
 function showQuestion(){
     //create the element
